@@ -1,0 +1,103 @@
+body{
+    
+    text-align: center;
+    background:#8f8e83;
+    /* background:linear-gradient(#826b60,#2e4a13,#8f8e83,#8f8e83); */
+    font-family:'jack frost', sans-serif;
+
+}
+ 
+.header{
+    text-align: center;
+    margin:30px;
+}
+
+ .header p{
+    font-size: 20px;
+ }
+
+ .header h2{
+    color: #2e4a13;
+    font-weight: bold;
+ }
+
+ .header h1{
+    text-shadow:0 4px #826b60;
+    
+ }
+
+
+#img1{
+       width:150px;
+       border: 2px solid #2e4a13;
+       border-radius:50%;
+}
+
+.gifts{
+
+    width: 320px;
+    height: 320px;
+    background-color:#826b60;
+    border: 3px solid #2e4a13;
+    margin:20px 40px ;
+    border-radius:20px;
+}
+
+#g1:hover{
+    background-image: url('assets/finger.webp');
+    color:#19140f;
+    background-size: cover;
+   
+}
+
+#g2:hover{
+    background-image: url('assets/applause.webp');
+    color:#19140f;
+    background-size: cover;
+   
+}
+
+#g3:hover{
+    background-image: url('assets/kiss.webp');
+    color:#19140f;
+    background-size: cover;
+   
+}
+
+#g3:hover p,#g2:hover p,#g1:hover p{
+     visibility: hidden;
+   
+}
+
+.gift-box p{
+    text-transform: uppercase;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size:45px;
+    margin: 120px auto;
+}
+
+.gift-box{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;}
+@media (max-width: 768px) {
+    .gift-box {
+      flex-direction: column;
+      
+       /* Stacks the children vertically */
+    }
+  }
+
+
+.footer p{
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #2e4a13;
+    font-style:  italic;
+    font-weight: 900;
+}
