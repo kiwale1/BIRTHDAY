@@ -44,21 +44,21 @@ body{
 }
 
 #g1:hover{
-    background-image: url('assets/finger.webp');
+    background-image: url('finger.webp');
     color:#19140f;
     background-size: cover;
    
 }
 
 #g2:hover{
-    background-image: url('assets/applause.webp');
+    background-image: url('applause.webp');
     color:#19140f;
     background-size: cover;
    
 }
 
 #g3:hover{
-    background-image: url('assets/kiss.webp');
+    background-image: url('kiss.webp');
     color:#19140f;
     background-size: cover;
    
